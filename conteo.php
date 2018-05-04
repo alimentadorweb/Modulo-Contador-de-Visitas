@@ -12,5 +12,4 @@ $fp = fopen($archivo,"w+");
 fwrite($fp, $contador, 26);
 fclose($fp);
 
-echo "Esta página fue visitada $contador veces";
 ?> 
